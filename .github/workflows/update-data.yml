@@ -25,16 +25,19 @@ jobs:
           node-version: "20"
 
       - name: Обновить data.json
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: node scripts/update-data.mjs
 
       - name: Закоммитить изменения (если есть)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data.json; then
-            echo "Нет изменений в data.json"
+          git add data.json history/
+          if git diff --cached --quiet; then
+            echo "Нет изменений"
           else
-            git add data.json
-            git commit -m "chore: автообновление data.json"
+            git commit -m "chore: автообновление data.json и истории"
             git push
           fi
