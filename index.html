@@ -55,6 +55,36 @@
     font-size: 13px;
     width: 180px;
   }
+  #historySelect {
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    background: #fff;
+    max-width: 220px;
+  }
+  .history-banner {
+    background: #fff7e6;
+    border: 1px solid #f2d199;
+    color: #7a5200;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .history-banner button {
+    border: 1px solid #f2d199;
+    background: #fff;
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .history-banner button:hover { background: #fdf1dc; }
   .table-card {
     background: #fff;
     border-radius: 10px;
@@ -119,7 +149,15 @@
   <div class="meta">
     <span id="updatedLabel">Загрузка данных…</span>
     <input id="search" type="text" placeholder="Поиск по номеру пропуска" />
+    <select id="historySelect">
+      <option value="">Текущая таблица</option>
+    </select>
     <button id="refreshBtn">Обновить сейчас</button>
+  </div>
+
+  <div class="history-banner" id="historyBanner" style="display:none;">
+    Вы смотрите таблицу на <strong id="historyDate"></strong> —
+    <button id="backToCurrentBtn">Вернуться к текущей</button>
   </div>
 
   <div class="table-card">
@@ -162,8 +200,13 @@
   const updatedLabel = document.getElementById("updatedLabel");
   const searchInput = document.getElementById("search");
   const refreshBtn = document.getElementById("refreshBtn");
+  const historySelect = document.getElementById("historySelect");
+  const historyBanner = document.getElementById("historyBanner");
+  const historyDateLabel = document.getElementById("historyDate");
+  const backToCurrentBtn = document.getElementById("backToCurrentBtn");
 
   let currentEmployees = [];
+  let viewingHistory = false;
 
   function formatRating(r) {
     return Number.isInteger(r) ? String(r) : r.toFixed(1).replace(".", ",");
@@ -209,6 +252,7 @@
   }
 
   async function loadData() {
+    if (viewingHistory) return; // не перетираем таблицу, пока смотрим архив
     try {
       const res = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
       if (!res.ok) throw new Error("HTTP " + res.status);
@@ -225,11 +269,73 @@
     }
   }
 
+  async function loadHistoryIndex() {
+    try {
+      const res = await fetch(`history/index.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) return; // истории может ещё не быть — это нормально
+      const data = await res.json();
+      const snapshots = data.snapshots || [];
+      snapshots.forEach((snap) => {
+        const opt = document.createElement("option");
+        opt.value = snap.file;
+        opt.textContent = new Date(snap.updatedAt).toLocaleString("ru-RU");
+        historySelect.appendChild(opt);
+      });
+    } catch {
+      // молча пропускаем — архив не обязателен для работы страницы
+    }
+  }
+
+  async function showHistorySnapshot(file) {
+    try {
+      const res = await fetch(`history/${file}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+      const employees = data.employees || [];
+
+      viewingHistory = true;
+      currentEmployees = employees;
+      render(employees, searchInput.value);
+
+      const updated = data.updatedAt ? new Date(data.updatedAt) : null;
+      historyDateLabel.textContent = updated ? updated.toLocaleString("ru-RU") : file;
+      historyBanner.style.display = "flex";
+      updatedLabel.textContent = `Архивная таблица · Всего: ${employees.length}`;
+    } catch (err) {
+      tbody.innerHTML = `<tr><td colspan="4" class="status">Не удалось загрузить архивный снимок: ${err.message}</td></tr>`;
+    }
+  }
+
+  function backToCurrent() {
+    viewingHistory = false;
+    historySelect.value = "";
+    historyBanner.style.display = "none";
+    loadData();
+  }
+
+  historySelect.addEventListener("change", () => {
+    if (historySelect.value === "") {
+      backToCurrent();
+    } else {
+      showHistorySnapshot(historySelect.value);
+    }
+  });
+
+  backToCurrentBtn.addEventListener("click", backToCurrent);
+
+  refreshBtn.addEventListener("click", () => {
+    if (viewingHistory) {
+      backToCurrent();
+    } else {
+      loadData();
+    }
+  });
+
   searchInput.addEventListener("input", () => render(currentEmployees, searchInput.value));
-  refreshBtn.addEventListener("click", loadData);
 
   loadData();
-  setInterval(loadData, 60000); // подтягиваем свежий data.json раз в минуту
+  loadHistoryIndex();
+  setInterval(loadData, 60000); // подтягиваем свежий data.json раз в минуту (пропускается в режиме просмотра архива)
 </script>
 </body>
 </html>
