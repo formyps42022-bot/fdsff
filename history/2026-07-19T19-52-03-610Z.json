@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-20T16:53:29.581Z",
+  "updatedAt": "2026-07-19T19:52:03.610Z",
   "sourceUrl": "https://lm-inc-levels-knyazhna.amvera.io",
   "employees": [
     {
       "id": "c75f0e39-4231-475a-bda2-f2478ee97f92",
       "serial": "00001",
       "level": 5,
-      "rating": 221.3
+      "rating": 216.3
     },
     {
       "id": "6166a2cb-5ed0-4b50-977e-ebdf5cc14c96",
@@ -30,7 +30,7 @@
       "id": "52cb0f02-cf23-484b-8a31-aa22387759bc",
       "serial": "00005",
       "level": 4,
-      "rating": 164.1
+      "rating": 166
     },
     {
       "id": "3146d96c-c797-432f-953e-fd9ca4d4ff5c",
@@ -66,19 +66,19 @@
       "id": "3152df86-2679-42eb-b7d9-c77a8f664c09",
       "serial": "00011",
       "level": 4,
-      "rating": 186.3
+      "rating": 185.3
     },
     {
       "id": "f5ee3ea5-9379-4bfd-b4c0-95c6081f24ad",
       "serial": "00012",
       "level": 5,
-      "rating": 225.5
+      "rating": 214.5
     },
     {
       "id": "e25d7fb5-fc5e-4ddb-a01b-08d31d151d21",
       "serial": "00013",
       "level": 4,
-      "rating": 166
+      "rating": 169.1
     },
     {
       "id": "13a2cbbe-5c60-4bdf-9112-f11c5cde71fc",
@@ -108,7 +108,7 @@
       "id": "2a7f0c3f-d4ab-4c77-9a5d-5a41f2abbe94",
       "serial": "00018",
       "level": 4,
-      "rating": 153.1
+      "rating": 169.1
     },
     {
       "id": "5457b325-68a0-4c1b-9e0e-206c091a6c8f",
@@ -120,13 +120,13 @@
       "id": "9af00c5c-9cfe-4896-beb7-7c67a4dd37d5",
       "serial": "00020",
       "level": 4,
-      "rating": 182.9
+      "rating": 180.9
     },
     {
       "id": "cbde4337-8b3c-4b05-9e0b-e9d59eaef02a",
       "serial": "00021",
       "level": 4,
-      "rating": 163.8
+      "rating": 168.7
     },
     {
       "id": "5fcfa3ff-4bdc-44b0-9e0d-ef98627a29cc",
@@ -156,13 +156,13 @@
       "id": "9e4a6fec-2acc-4c49-8b96-844cf79de992",
       "serial": "00026",
       "level": 4,
-      "rating": 200.5
+      "rating": 198.5
     },
     {
       "id": "9a7517cd-699a-4394-83a0-ebf471fc3e83",
       "serial": "00027",
       "level": 4,
-      "rating": 168.8
+      "rating": 166.8
     },
     {
       "id": "83b10196-5a94-4216-8290-666fd98f03ef",
@@ -222,7 +222,7 @@
       "id": "27cc3b92-2a3c-4af2-8399-ee5baed959c9",
       "serial": "00037",
       "level": 4,
-      "rating": 170.7
+      "rating": 168.7
     },
     {
       "id": "1661a21c-3735-4925-8141-c0855e1ad550",
@@ -234,13 +234,13 @@
       "id": "bb4a22ad-100e-4c8e-a07e-fc9c3c9cda2e",
       "serial": "00039",
       "level": 5,
-      "rating": 207.1
+      "rating": 212.1
     },
     {
       "id": "16edeef1-4b50-44ec-aaf0-8fcc1453d345",
       "serial": "00040",
       "level": 4,
-      "rating": 172.5
+      "rating": 170.5
     },
     {
       "id": "f7c2835b-b952-4357-8f66-af7f1e9b0672",
@@ -258,7 +258,7 @@
       "id": "10fe0421-5af9-4e2f-8240-fab42f01c272",
       "serial": "00043",
       "level": 4,
-      "rating": 192.9
+      "rating": 197.9
     },
     {
       "id": "2ecdb5a7-43e9-469f-9249-f0acd2a25c82",
@@ -276,7 +276,7 @@
       "id": "2995c98a-2ade-4da4-b1a5-5081acbec848",
       "serial": "00046",
       "level": 4,
-      "rating": 189.1
+      "rating": 187.1
     },
     {
       "id": "54106e34-9eed-43ae-9750-8bc4c3f7b174",
@@ -299,8 +299,8 @@
     {
       "id": "cdcf534f-dc91-455b-8c85-c68c04fbadf7",
       "serial": "00050",
-      "level": 4,
-      "rating": 203.6
+      "level": 5,
+      "rating": 208.6
     }
   ]
 }
