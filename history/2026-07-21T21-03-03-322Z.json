@@ -1,306 +1,306 @@
 {
-  "updatedAt": "2026-07-22T15:03:01.146Z",
+  "updatedAt": "2026-07-21T21:03:03.322Z",
   "sourceUrl": "https://lm-inc-levels-knyazhna.amvera.io",
   "employees": [
     {
       "id": "c75f0e39-4231-475a-bda2-f2478ee97f92",
       "serial": "00001",
-      "level": 8,
-      "rating": 315.8
+      "level": 6,
+      "rating": 274.3
     },
     {
       "id": "6166a2cb-5ed0-4b50-977e-ebdf5cc14c96",
       "serial": "00002",
-      "level": 7,
-      "rating": 291.7
+      "level": 6,
+      "rating": 250.2
     },
     {
       "id": "e3427ae3-28b2-408c-a8aa-8c80f7dc93c5",
       "serial": "00003",
       "level": 5,
-      "rating": 242.3
+      "rating": 222.5
     },
     {
       "id": "6efd4d5d-7280-457e-a9d9-e092d8ebb405",
       "serial": "00004",
-      "level": 7,
-      "rating": 276.8
+      "level": 6,
+      "rating": 247.4
     },
     {
       "id": "52cb0f02-cf23-484b-8a31-aa22387759bc",
       "serial": "00005",
-      "level": 6,
-      "rating": 250.5
+      "level": 5,
+      "rating": 212.7
     },
     {
       "id": "3146d96c-c797-432f-953e-fd9ca4d4ff5c",
       "serial": "00006",
-      "level": 6,
-      "rating": 252.5
+      "level": 5,
+      "rating": 211
     },
     {
       "id": "91a248b9-fabe-489a-85f0-2bc5e7d780dc",
       "serial": "00007",
-      "level": 6,
-      "rating": 265.2
+      "level": 5,
+      "rating": 230.3
     },
     {
       "id": "f107908b-7aef-41cb-a021-0a801b112d9e",
       "serial": "00008",
-      "level": 6,
-      "rating": 255.6
+      "level": 5,
+      "rating": 214.1
     },
     {
       "id": "295e1704-975c-47d7-a803-c0d91c983199",
       "serial": "00009",
-      "level": 6,
-      "rating": 258
+      "level": 5,
+      "rating": 228.6
     },
     {
       "id": "7560bdfd-ac91-4f6e-a359-1d84ccb237c2",
       "serial": "00010",
-      "level": 6,
-      "rating": 254.5
+      "level": 5,
+      "rating": 234.7
     },
     {
       "id": "3152df86-2679-42eb-b7d9-c77a8f664c09",
       "serial": "00011",
-      "level": 7,
-      "rating": 279.8
+      "level": 5,
+      "rating": 238.9
     },
     {
       "id": "f5ee3ea5-9379-4bfd-b4c0-95c6081f24ad",
       "serial": "00012",
-      "level": 8,
-      "rating": 320
+      "level": 6,
+      "rating": 278.5
     },
     {
       "id": "e25d7fb5-fc5e-4ddb-a01b-08d31d151d21",
       "serial": "00013",
       "level": 5,
-      "rating": 233.7
+      "rating": 213.9
     },
     {
       "id": "13a2cbbe-5c60-4bdf-9112-f11c5cde71fc",
       "serial": "00014",
-      "level": 7,
-      "rating": 284.6
+      "level": 5,
+      "rating": 243.8
     },
     {
       "id": "1eb5f4f1-e3da-4a3f-a300-e83f01f95b85",
       "serial": "00015",
-      "level": 7,
-      "rating": 282.5
+      "level": 6,
+      "rating": 247.6
     },
     {
       "id": "c9720f2e-d64c-43d8-ad54-0f49138ac51c",
       "serial": "00016",
-      "level": 7,
-      "rating": 284.7
+      "level": 5,
+      "rating": 242.9
     },
     {
       "id": "a753a062-08ae-4c27-87a8-def7452c6e0d",
       "serial": "00017",
-      "level": 7,
-      "rating": 273.6
+      "level": 6,
+      "rating": 253.8
     },
     {
       "id": "2a7f0c3f-d4ab-4c77-9a5d-5a41f2abbe94",
       "serial": "00018",
-      "level": 5,
-      "rating": 229.4
+      "level": 4,
+      "rating": 203.7
     },
     {
       "id": "5457b325-68a0-4c1b-9e0e-206c091a6c8f",
       "serial": "00019",
-      "level": 7,
-      "rating": 279.1
+      "level": 5,
+      "rating": 241.3
     },
     {
       "id": "9af00c5c-9cfe-4896-beb7-7c67a4dd37d5",
       "serial": "00020",
-      "level": 7,
-      "rating": 280.5
+      "level": 5,
+      "rating": 238.4
     },
     {
       "id": "cbde4337-8b3c-4b05-9e0b-e9d59eaef02a",
       "serial": "00021",
-      "level": 6,
-      "rating": 253
+      "level": 5,
+      "rating": 218
     },
     {
       "id": "5fcfa3ff-4bdc-44b0-9e0d-ef98627a29cc",
       "serial": "00022",
-      "level": 7,
-      "rating": 275
+      "level": 6,
+      "rating": 245.6
     },
     {
       "id": "1c156c15-cfa8-4374-b004-aac65a0a8278",
       "serial": "00023",
-      "level": 7,
-      "rating": 299.4
+      "level": 6,
+      "rating": 251.3
     },
     {
       "id": "0fb06dfd-0074-460c-bfcd-43e761270f67",
       "serial": "00024",
-      "level": 7,
-      "rating": 289.8
+      "level": 6,
+      "rating": 248
     },
     {
       "id": "9d701b49-a0d4-4a04-9037-cfd3513dc6fd",
       "serial": "00025",
-      "level": 8,
-      "rating": 318.1
+      "level": 6,
+      "rating": 276.3
     },
     {
       "id": "9e4a6fec-2acc-4c49-8b96-844cf79de992",
       "serial": "00026",
-      "level": 6,
-      "rating": 264.3
+      "level": 5,
+      "rating": 244.5
     },
     {
       "id": "9a7517cd-699a-4394-83a0-ebf471fc3e83",
       "serial": "00027",
-      "level": 6,
-      "rating": 264.1
+      "level": 5,
+      "rating": 222
     },
     {
       "id": "83b10196-5a94-4216-8290-666fd98f03ef",
       "serial": "00028",
-      "level": 7,
-      "rating": 271.5
+      "level": 6,
+      "rating": 245.8
     },
     {
       "id": "51a29c74-1e26-477e-b788-101b7b14b10a",
       "serial": "00029",
-      "level": 7,
-      "rating": 279
+      "level": 5,
+      "rating": 241.2
     },
     {
       "id": "856b0f11-ae64-4fac-bccb-5c101bdd57f5",
       "serial": "00030",
-      "level": 7,
-      "rating": 274.1
+      "level": 5,
+      "rating": 233.2
     },
     {
       "id": "4f38fac3-1992-4a5b-94e3-a0b4dfc7f7c2",
       "serial": "00031",
-      "level": 7,
-      "rating": 280.7
+      "level": 6,
+      "rating": 245.8
     },
     {
       "id": "c0cec38a-179b-4609-9aca-455f3d6fd1b6",
       "serial": "00032",
-      "level": 5,
-      "rating": 218.4
+      "level": 4,
+      "rating": 192.7
     },
     {
       "id": "c00c9dff-4cb3-4c4b-af5c-f086ba3a5add",
       "serial": "00033",
-      "level": 6,
-      "rating": 266.7
+      "level": 5,
+      "rating": 237.3
     },
     {
       "id": "e62a785d-7c7c-4375-ac34-36563ffede16",
       "serial": "00034",
-      "level": 6,
-      "rating": 253.9
+      "level": 5,
+      "rating": 228.2
     },
     {
       "id": "4518a6b4-fbb1-4de9-85a6-3f12d105e7bd",
       "serial": "00035",
-      "level": 6,
-      "rating": 263.9
+      "level": 5,
+      "rating": 223.1
     },
     {
       "id": "25f2c2b9-4cba-49d8-bad3-2bb2213d9405",
       "serial": "00036",
-      "level": 6,
-      "rating": 265.2
+      "level": 5,
+      "rating": 230.2
     },
     {
       "id": "27cc3b92-2a3c-4af2-8399-ee5baed959c9",
       "serial": "00037",
-      "level": 6,
-      "rating": 269.2
+      "level": 5,
+      "rating": 228.3
     },
     {
       "id": "1661a21c-3735-4925-8141-c0855e1ad550",
       "serial": "00038",
-      "level": 6,
-      "rating": 262.7
+      "level": 5,
+      "rating": 233.3
     },
     {
       "id": "bb4a22ad-100e-4c8e-a07e-fc9c3c9cda2e",
       "serial": "00039",
-      "level": 8,
-      "rating": 308.9
+      "level": 6,
+      "rating": 267.1
     },
     {
       "id": "16edeef1-4b50-44ec-aaf0-8fcc1453d345",
       "serial": "00040",
-      "level": 6,
-      "rating": 263
+      "level": 5,
+      "rating": 225.2
     },
     {
       "id": "f7c2835b-b952-4357-8f66-af7f1e9b0672",
       "serial": "00041",
-      "level": 7,
-      "rating": 279.8
+      "level": 5,
+      "rating": 242
     },
     {
       "id": "8a4f5091-be85-4348-83e1-6249d5f93506",
       "serial": "00042",
-      "level": 7,
-      "rating": 290.4
+      "level": 6,
+      "rating": 248.6
     },
     {
       "id": "10fe0421-5af9-4e2f-8240-fab42f01c272",
       "serial": "00043",
-      "level": 7,
-      "rating": 289.8
+      "level": 6,
+      "rating": 252.9
     },
     {
       "id": "2ecdb5a7-43e9-469f-9249-f0acd2a25c82",
       "serial": "00044",
-      "level": 7,
-      "rating": 281.1
+      "level": 5,
+      "rating": 239
     },
     {
       "id": "59376b37-db40-4c71-b27c-3525df4ee281",
       "serial": "00045",
-      "level": 7,
-      "rating": 280.9
+      "level": 6,
+      "rating": 246
     },
     {
       "id": "2995c98a-2ade-4da4-b1a5-5081acbec848",
       "serial": "00046",
-      "level": 6,
-      "rating": 254.4
+      "level": 5,
+      "rating": 228.7
     },
     {
       "id": "54106e34-9eed-43ae-9750-8bc4c3f7b174",
       "serial": "00047",
-      "level": 8,
-      "rating": 302.6
+      "level": 6,
+      "rating": 260.5
     },
     {
       "id": "62828444-6286-4338-a011-6ba7b1d6b4ed",
       "serial": "00048",
-      "level": 7,
-      "rating": 270.7
+      "level": 5,
+      "rating": 229.8
     },
     {
       "id": "315e2454-22ab-4754-b9ee-f07fd37291df",
       "serial": "00049",
-      "level": 7,
-      "rating": 288.8
+      "level": 6,
+      "rating": 247.3
     },
     {
       "id": "cdcf534f-dc91-455b-8c85-c68c04fbadf7",
       "serial": "00050",
-      "level": 7,
-      "rating": 298.9
+      "level": 6,
+      "rating": 256.8
     }
   ]
 }
