@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T09:55:31.843Z",
+  "updatedAt": "2026-07-22T15:03:01.146Z",
   "sourceUrl": "https://lm-inc-levels-knyazhna.amvera.io",
   "employees": [
     {
@@ -126,7 +126,7 @@
       "id": "cbde4337-8b3c-4b05-9e0b-e9d59eaef02a",
       "serial": "00021",
       "level": 6,
-      "rating": 259
+      "rating": 253
     },
     {
       "id": "5fcfa3ff-4bdc-44b0-9e0d-ef98627a29cc",
@@ -137,8 +137,8 @@
     {
       "id": "1c156c15-cfa8-4374-b004-aac65a0a8278",
       "serial": "00023",
-      "level": 8,
-      "rating": 304.4
+      "level": 7,
+      "rating": 299.4
     },
     {
       "id": "0fb06dfd-0074-460c-bfcd-43e761270f67",
@@ -179,8 +179,8 @@
     {
       "id": "856b0f11-ae64-4fac-bccb-5c101bdd57f5",
       "serial": "00030",
-      "level": 6,
-      "rating": 269.1
+      "level": 7,
+      "rating": 274.1
     },
     {
       "id": "4f38fac3-1992-4a5b-94e3-a0b4dfc7f7c2",
@@ -215,8 +215,8 @@
     {
       "id": "25f2c2b9-4cba-49d8-bad3-2bb2213d9405",
       "serial": "00036",
-      "level": 7,
-      "rating": 275.2
+      "level": 6,
+      "rating": 265.2
     },
     {
       "id": "27cc3b92-2a3c-4af2-8399-ee5baed959c9",
